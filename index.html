@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lanco Industrial Machine Manufacturing</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: #1f2933;
+    }
+
+    /* HEADER */
+    header {
+      background: linear-gradient(to right, #0f172a, #020617);
+      color: white;
+      padding: 40px 20px 80px;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo img {
+      width: 55px;
+      height: auto;
+    }
+
+    .logo h1 {
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    .hero h2 {
+      font-size: 2.8rem;
+    }
+
+    .hero p {
+      margin-top: 15px;
+      color: #cbd5f5;
+      font-size: 1.1rem;
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h3.section-title {
+      font-size: 2.2rem;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    /* ABOUT */
+    .about {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 40px;
+      align-items: center;
+    }
+
+    .about img {
+      width: 100%;
+      border-radius: 14px;
+    }
+
+    /* PRODUCTS */
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: #f8fafc;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content h4 {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+    }
+
+    /* FEATURES */
+    .features {
+      background: #020617;
+      color: white;
+      border-radius: 20px;
+      padding: 50px 30px;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .feature {
+      background: #020617;
+      border: 1px solid #1e293b;
+      border-radius: 14px;
+      padding: 20px;
+    }
+
+    /* CONTACT */
+    .contact {
+      text-align: center;
+      background: #0f172a;
+      color: white;
+      padding: 80px 20px;
+      margin-top: 70px;
+    }
+
+    .contact p {
+      margin: 8px 0;
+      color: #cbd5f5;
+    }
+
+    footer {
+      background: #020617;
+      color: #94a3b8;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER / NAV -->
+  <header>
+    <div class="nav">
+      <div class="logo">
+        <img src="images/logo.png" alt="Lanco Logo">
+        <h1>Lanco Industrial</h1>
+      </div>
+    </div>
+
+    <div class="hero">
+      <h2>Industrial Hydraulic Baler Solutions</h2>
+      <p>Precision-built machines for recycling, waste management, and heavy-duty operations</p>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section>
+    <h3 class="section-title">About Lanco</h3>
+    <div class="about">
+      <div>
+        <p>
+          <strong>Lanco Industrial Machine Manufacturing</strong> is a trusted manufacturer
+          of hydraulic baler machines designed for efficiency, safety, and durability.
+          Our machines are engineered to handle demanding industrial environments
+          including recycling plants, warehouses, and manufacturing facilities.
+        </p>
+        <br>
+        <p>
+          We focus on innovation, precision fabrication, and long-term reliability.
+          Every machine is built using high-grade materials and tested to ensure
+          maximum compression power and operational safety.
+        </p>
+      </div>
+      <img src="images/factory.jpg" alt="Manufacturing Facility">
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section>
+    <h3 class="section-title">Our Products</h3>
+    <div class="products">
+      <div class="card">
+        <img src="images/baler1.jpg" alt="Hydraulic Baler">
+        <div class="card-content">
+          <h4>Hydraulic Baler Machine</h4>
+          <p>
+            Designed for compressing cardboard, plastic, paper, and industrial waste.
+            Built with powerful hydraulic cylinders for consistent performance.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/baler2.jpg" alt="Industrial Baler">
+        <div class="card-content">
+          <h4>Heavy-Duty Industrial Balers</h4>
+          <p>
+            Ideal for continuous operations requiring high compression force,
+            reduced waste volume, and operational efficiency.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/baler1.jpg" alt="Custom Machine">
+        <div class="card-content">
+          <h4>Custom Machine Fabrication</h4>
+          <p>
+            We design and manufacture customized hydraulic machines
+            tailored to your operational requirements.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features">
+    <h3 class="section-title">Why Choose Us</h3>
+    <div class="features-grid">
+      <div class="feature">✔ High-pressure hydraulic systems</div>
+      <div class="feature">✔ Industrial-grade steel construction</div>
+      <div class="feature">✔ Energy-efficient machine design</div>
+      <div class="feature">✔ Custom-built solutions</div>
+      <div class="feature">✔ Safety-focused engineering</div>
+      <div class="feature">✔ Reliable technical support</div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <div class="contact">
+    <h3 class="section-title">Get in Touch</h3>
+    <p>Email: lancoindustrial@email.com</p>
+    <p>Phone: +63 900 000 0000</p>
+    <p>Location: Philippines</p>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Lanco Industrial Machine Manufacturing. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
